@@ -1,0 +1,102 @@
+
+P A U P *
+Version 4.0a (build 168) for macOS (built on Aug  2 2020 at 06:41:30)
+Wed Jul 13 11:57:22 2022
+
+
+Processing of file "~/Downloads/svdq/rgran.nex" begins...
+
+Data read in DNA format
+
+Data matrix has 46 taxa, 7667 characters
+Valid character-state symbols: ACGT
+Missing data identified by 'N'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 45
+
+Analysis using SVDQuartets method
+
+  Number of taxa (lineages) in the analysis = 46
+  Tips assigned to species using taxon partition 'species'
+  Quartet sampling = exhaustive (30459 quartets)
+  Doing standard bootstrap analysis
+    Initial bootstrap seed = generated automatically
+    Number of bootstrap replicates = 100
+  Tree model = multispecies coalescent (expected rank of flattening matrix for true tree = 10)
+  Using 2 parallel threads on 8 processors
+  Tree search:
+    Quartet assembly algorithm = QFM
+    Local search = none
+
+Quartet assembly completed:
+  Total weight of incompatible quartets = 4.9714 (14.204%)
+  Total weight of compatible quartets   = 30.0286 (85.796%)
+  Time used for QFM = 0.00 sec (CPU time = 0.00 sec)
+
+Tree from SVDQuartets analysis (also stored to tree buffer):
+
+                                                                  /----------------- centralis
+                                                  /---------------+
+                                                  |               \----------------- humbolti
+                                 /----------------+
+                                 |                \--------------------------------- merianae
+                 /---------------+
+                 |               |                                /----------------- granulosa
+/----------------+               \--------------------------------+
+|                |                                                \----------------- mirandaribeiroi
+|                |
+|                \------------------------------------------------------------------ major
+|
+\----------------------------------------------------------------------------------- margaritifera
+
+Bootstrap 50% majority-rule consensus tree
+   (plus other groups compatible with this tree)
+
+                                                                  /----------------- centralis(1)
+                                                  /------100------+
+                                                  |               \----------------- humbolti(2)
+                                 /------100-------+
+                 /------49-------+                \--------------------------------- merianae(4)
+                 |               |
+                 |               \-------------------------------------------------- major(3)
+/----------------+
+|                |                                                /----------------- granulosa(5)
+|                \-----------------------97-----------------------+
+|                                                                 \----------------- mirandaribeiroi(6)
+|
+\----------------------------------------------------------------------------------- margaritifera(7)
+
+Bipartitions found in one or more trees and frequency of occurrence (bootstrap support values):
+
+1234567          Freq
+---------------------
+..*.***           100
+..*****           100
+....**.            97
+....***            49
+..*...*            47
+
+2 groups at (relative) frequency less than 5% not shown
+
+Bootstrap consensus tree stored to tree buffer (replacing previously stored tree)
+
+Time used for SVDQuartet analysis = 00:03:46 (CPU time = 00:06:15.2)
+
+1 tree converted from unrooted to rooted using outgroup method
+
+1 tree saved to file "~/Downloads/svdq/rgran_paup.tre"
