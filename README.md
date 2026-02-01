@@ -12,6 +12,7 @@ Rivera D, Prates I, Caldwell JP, Rodrigues MT, Fujita MK. 2022. Testing assertio
 ## Overview
 
 This repository contains all code and scripts used to perform the analyses in Rivera et al. (2022), including admixture analysis, introgression tests, phylogenetic inference, and spatial genetic clustering.
+Any files which are too large to store on GitHub are stored on the Dryad repository. 
 
 ## Requirements
 
