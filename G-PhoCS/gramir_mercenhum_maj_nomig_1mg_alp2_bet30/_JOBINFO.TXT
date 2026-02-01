@@ -1,0 +1,14 @@
+Task\ label=gramir_mercenhum_maj_nomig_1mg_alp2_bet30
+Task\ ID=2522667
+Tool=GPHOCS_XSEDE
+created\ on=2021-06-25 09:33:26.0
+JobHandle=NGBW-JOB-GPHOCS_XSEDE-758AC76D74214A88B0C22F5E64B8D372
+RunNumber=2
+resource=expanse
+User\ ID=138395
+User\ Name=daniellegrivera
+email=danielle.rivera@uta.edu
+Output=(all_output,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=24
+JOBID=3626026
