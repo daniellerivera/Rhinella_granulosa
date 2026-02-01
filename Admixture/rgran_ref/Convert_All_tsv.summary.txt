@@ -1,0 +1,2 @@
+tsv_file	Loci	Samples	Total_SNP_sites	Missing_SNP_sites	Perc_Missing_Data
+rgran_ref.haplotypes.filtered_m65_randomSNP.tsv	1077	42	45234	10610	23.5

@@ -1,0 +1,28 @@
+Filter_All_tsv settings:
+
+-i (indir): /home/lepidodactylus/Desktop/Danielle/admixture/granulosa/rgran_ref_noout_45s_33ael/rgran_ref_noout_45s_33ael
+-m (missingdata): 65
+-s (snpselection): random
+
+================================================================================
+
+
+
+Filtering summary for: rgran_ref.p.haplotypes.tsv
+
+Number of starting loci: 1,242
+Number of 'blank' loci: 0
+Number of invariant loci: 0
+Number of loci with >2 haplotypes per sample: 0
+Number of non-biallelic loci: 0
+Remaining loci: 1,242
+
+42 samples PASSED missing data threshold (<65% missing)
+
+0 samples FAILED missing data threshold (>=65% missing)
+
+Number of newly invariant or singleton loci removed: 165
+
+Final number of loci: 1,077
+
+------------------------------------------------------------------------------------------

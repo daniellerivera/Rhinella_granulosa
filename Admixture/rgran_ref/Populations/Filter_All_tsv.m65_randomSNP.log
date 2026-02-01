@@ -1,0 +1,135 @@
+
+
+================================================================================
+
+Processing haplotypes.tsv file in directory: Populations
+
+================================================================================
+
+--------------------------------------------------
+Filtering loci in tsv file.
+--------------------------------------------------
+
+Beginning filtering...
+
+Number of starting loci: 1,242
+
+Number of 'blank' loci: 0
+
+Number of invariant loci: 0
+
+Number of loci with >2 haplotypes per sample: 0
+
+Number of non-biallelic loci: 0
+
+Remaining loci: 1,242
+
+
+Done.
+Elapsed time: 0:00:00.057601 (H:M:S)
+
+
+
+--------------------------------------------------
+Selecting final SNP sites.
+--------------------------------------------------
+
+Choosing random SNP site for all loci...
+
+Done.
+Elapsed time: 0:00:00.016662 (H:M:S)
+
+
+
+--------------------------------------------------
+Examining per-sample missing data.
+--------------------------------------------------
+
+Calculating missing data...
+
+
+42 samples PASSED missing data threshold (<65% missing):
+	R_centralis_ENS11296:	34.7% missing data
+	R_granulosa_MTR12027:	21.2% missing data
+	R_granulosa_MTR12028:	41.5% missing data
+	R_granulosa_MTR12059:	22.9% missing data
+	R_granulosa_MTR12175:	64.1% missing data
+	R_granulosa_MTR16052:	43.6% missing data
+	R_granulosa_MTR22936:	26.7% missing data
+	R_granulosa_MTR22988:	27.4% missing data
+	R_humbolti_ENS11089:	35.4% missing data
+	R_humbolti_ENS11142:	19.6% missing data
+	R_major_BM395:	35.8% missing data
+	R_major_LSUMZH-15119:	32.3% missing data
+	R_major_LSUMZH-15120:	37.8% missing data
+	R_major_LSUMZH-15121:	42.1% missing data
+	R_major_LSUMZH-15122:	31.5% missing data
+	R_merianae_LSUMZH-12458:	39.1% missing data
+	R_merianae_LSUMZH-12483:	15.1% missing data
+	R_merianae_LSUMZH-12484:	22.7% missing data
+	R_merianae_LSUMZH-12485:	18.5% missing data
+	R_merianae_LSUMZH-12487:	21.7% missing data
+	R_merianae_LSUMZH-12488:	18.4% missing data
+	R_merianae_LSUMZH-12489:	16.0% missing data
+	R_merianae_LSUMZH-12490:	27.8% missing data
+	R_merianae_LSUMZH-12492:	26.5% missing data
+	R_merianae_MTR18590:	20.4% missing data
+	R_merianae_MTR18593:	23.8% missing data
+	R_merianae_MTR20519:	22.9% missing data
+	R_merianae_MTR23148:	25.2% missing data
+	R_mirandaribeiroi_AF713:	56.4% missing data
+	R_mirandaribeiroi_AF725:	31.6% missing data
+	R_mirandaribeiroi_AF745:	28.7% missing data
+	R_mirandaribeiroi_AF746:	21.5% missing data
+	R_mirandaribeiroi_LAJ406:	29.9% missing data
+	R_mirandaribeiroi_MRT2120:	23.3% missing data
+	R_mirandaribeiroi_MRT2716:	28.2% missing data
+	R_mirandaribeiroi_MRT2917:	62.6% missing data
+	R_mirandaribeiroi_MRT7135:	24.1% missing data
+	R_mirandaribeiroi_MRT7142:	46.5% missing data
+	R_mirandaribeiroi_MRT8997:	33.8% missing data
+	R_mirandaribeiroi_MTR26991:	21.1% missing data
+	R_mirandaribeiroi_PHV2203:	41.5% missing data
+	R_mirandaribeiroi_PHV4041:	18.4% missing data
+
+
+0 samples FAILED missing data threshold (>=65% missing):
+
+
+Removing 0 failed samples from dataset...
+
+
+
+Re-filtering loci after sample removal...
+
+Number of newly invariant or singleton loci removed: 165
+
+Final number of loci: 1,077
+
+
+Done.
+Elapsed time: 0:00:00.055747 (H:M:S)
+
+
+
+--------------------------------------------------
+Writing filtered loci to new file.
+--------------------------------------------------
+
+
+Writing data to file: rgran_ref_noout_45s_33ael.haplotypes.filtered_m65_randomSNP.tsv
+
+Final number of loci written: 1,077
+
+Done.
+Elapsed time: 0:00:00.004242 (H:M:S)
+
+
+
+================================================================================
+
+Total elapsed time for rgran_ref_noout_45s_33ael.p.haplotypes.tsv: 0:00:00.161488 (H:M:S)
+
+================================================================================
+
+
