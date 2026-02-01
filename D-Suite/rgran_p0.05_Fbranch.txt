@@ -1,0 +1,11 @@
+branch	branch_descendants	Outgroup	major	granulosa	mirandaribeiroi	merianae	centralis	humbolti
+b2	major	nan	nan	nan	nan	nan	nan	nan
+b3	granulosa,mirandaribeiroi,merianae,centralis,humbolti	nan	nan	nan	nan	nan	nan	nan
+b4	granulosa,mirandaribeiroi	nan	0	nan	nan	nan	nan	nan
+b5	merianae,centralis,humbolti	nan	0	nan	nan	nan	nan	nan
+b6	granulosa	nan	0.153854	nan	nan	0	0	0
+b7	mirandaribeiroi	nan	0	nan	nan	0	0	0
+b8	merianae	nan	0	0	0	nan	nan	nan
+b9	centralis,humbolti	nan	0	0	0	nan	nan	nan
+b10	centralis	nan	0	0	0	0	nan	nan
+b11	humbolti	nan	0	0	0	0	nan	nan
