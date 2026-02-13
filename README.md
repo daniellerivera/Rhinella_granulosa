@@ -12,7 +12,6 @@ Rivera D, Prates I, Caldwell JP, Rodrigues MT, Fujita MK. 2022. Testing assertio
 ## Overview
 
 This repository contains all code and scripts used to perform the analyses in Rivera et al. (2022), including admixture analysis, introgression tests, phylogenetic inference, and spatial genetic clustering.
-Any files which are too large to store on GitHub are stored on the Dryad repository. 
 
 ## Requirements
 
@@ -80,10 +79,6 @@ Each analysis folder contains the necessary input files and scripts. To reproduc
 5. **Phylogenies**: Use the input files with IQ-TREE or MrBayes as appropriate
 6. **SVDQuartets**: Navigate to `SVDQuartets/` and run the bash script with PAUP*
 7. **TESS3r**: Run `TESS3r/TESS3r.r` in R
-
-## Data Availability
-
-Original data are available from Dryad: DOI: 10.5061/dryad.p2ngf1vtc
 
 ## Contact
 
